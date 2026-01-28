@@ -306,7 +306,11 @@ const normalizeSettings = (settings?: WorkerSettings): WorkerSettings => {
 
 const getModelInputSize = (session: ort.InferenceSession) => {
   const inputName = session.inputNames[0]
-  const metadata = session.inputMetadata?.[inputName]
+  const metadata = (
+    session.inputMetadata as unknown as
+      | Record<string, { dimensions?: Array<number | string | bigint | null> }>
+      | undefined
+  )?.[inputName]
   const dims = metadata?.dimensions
   if (!dims || dims.length < 4) return null
   const height = typeof dims[2] === 'number' ? dims[2] : null

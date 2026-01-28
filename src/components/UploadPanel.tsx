@@ -1,13 +1,7 @@
 import type { FC } from 'react'
 
-const formatDimensions = (width?: number, height?: number) => {
-  if (!width || !height) return '—'
-  return `${width} × ${height}px`
-}
-
 type UploadPanelProps = {
   isDragging: boolean
-  dimensions: { width?: number; height?: number }
   onPick: () => void
   onDragOver: (event: React.DragEvent<HTMLDivElement>) => void
   onDragLeave: () => void
@@ -16,7 +10,6 @@ type UploadPanelProps = {
 
 const UploadPanel: FC<UploadPanelProps> = ({
   isDragging,
-  dimensions,
   onPick,
   onDragOver,
   onDragLeave,
@@ -34,7 +27,6 @@ const UploadPanel: FC<UploadPanelProps> = ({
       <p className="text-base font-medium">Drop an image here</p>
       <p className="text-xs text-white/50">
         PNG or JPG
-        {/* · {formatDimensions(dimensions.width, dimensions.height)} */}
       </p>
       <button
         className="roundedbg-cta px-5 py-2 text-lg font-semibold text-white transition 

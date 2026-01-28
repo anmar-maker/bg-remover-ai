@@ -224,7 +224,6 @@ const Tool = () => {
           {!hasPreview && (
             <UploadPanel
               isDragging={isDragging}
-              dimensions={dimensions}
               onPick={() => inputRef.current?.click()}
               onDragOver={(event) => {
                 event.preventDefault()
