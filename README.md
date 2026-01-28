@@ -1,12 +1,10 @@
-![Background Remover cover](https://i.ibb.co.com/jPnDnVg7/bg-remover-git-cover.jpg)
-
 # 🖼️ Background Remover (Browser‑Only)
 
 A fast, private, **serverless background remover** that runs 100% in the browser. No uploads, no accounts, no tracking — just drop an image and download a transparent PNG. ✨
 
 Built with **Vite + React + TypeScript + Tailwind CSS** and powered by **ONNX Runtime Web** running in a **Web Worker** for smooth UI performance.
 
----
+![Background Remover cover](https://i.ibb.co.com/jPnDnVg7/bg-remover-git-cover.jpg)
 
 ## ✅ Highlights
 
