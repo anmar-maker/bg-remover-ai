@@ -1,3 +1,5 @@
+![Background Remover cover](https://i.ibb.co.com/jPnDnVg7/bg-remover-git-cover.jpg)
+
 # 🖼️ Background Remover (Browser‑Only)
 
 A fast, private, **serverless background remover** that runs 100% in the browser. No uploads, no accounts, no tracking — just drop an image and download a transparent PNG. ✨
