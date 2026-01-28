@@ -6,6 +6,12 @@ Built with **Vite + React + TypeScript + Tailwind CSS** and powered by **ONNX Ru
 
 ![Background Remover cover](https://i.ibb.co.com/jPnDnVg7/bg-remover-git-cover.jpg)
 
+## 🌍 Live
+
+https://bgremover-ai.web.app/
+
+---
+
 ## ✅ Highlights
 
 - **🧠 AI background removal in the browser** (ONNX models)
